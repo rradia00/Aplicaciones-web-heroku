@@ -1,0 +1,175 @@
+body {
+  padding: 1vw;
+  background-color: black;
+}
+
+.nota {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.notas {
+  height: 100%;
+}
+
+.grid {
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.grupo {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.boton{
+  color: white;
+  width: 5.2vw;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: .6rem 1rem;
+}
+
+.boton span{
+  margin-left: -5px;
+}
+
+.editar{
+  border: 1px solid #00ab00;
+  border-radius: 4px;
+  background-color: #006000;
+
+  font-size: 1rem;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+    0 1px 3px rgba(0,0,0,.2);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#1a1),to(#007000));
+  background-image: linear-gradient(#108010 10%,#1a1 100%);
+}
+
+.editar:hover, .btn-3d:focus {
+  color: #666666;
+  background-color: #20ff20;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#108010),to(#1a1));
+  background-image: linear-gradient(#20ff20 10%,#1b1 100%);
+}
+
+.editar:active {
+  background-color: #108010;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#108010),to(#1a1));
+  background-image: linear-gradient(#108010 10%,#1a1 100%);
+}
+
+.eliminar{
+  border: 1px solid #ab0000;
+  border-radius: 4px;
+  background-color: #600000;
+
+  font-size: 1rem;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+    0 1px 3px rgba(0,0,0,.2);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#a11),to(#700000));
+  background-image: linear-gradient(#801010 10%,#a11 100%);
+}
+
+.eliminar:hover, .btn-3d:focus {
+  background-color: #ff2020;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#801010),to(#a11));
+  background-image: linear-gradient(#ff2020 10%,#b11 100%);
+}
+
+.eliminar:active {
+  background-color: #801010;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#801010),to(#a11));
+  background-image: linear-gradient(#801010 10%,#a11 100%);
+}
+
+.usuario {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.nuevo{
+  color: white;
+  width: 8vw;
+  margin-left: 5%;
+  padding: .6rem 1rem;
+}
+
+.nuevo{
+  border: 1px solid #00ab00;
+  border-radius: 4px;
+  background-color: #006000;
+
+  font-size: 1rem;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+    0 1px 3px rgba(0,0,0,.2);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#1a1),to(#007000));
+  background-image: linear-gradient(#108010 10%,#1a1 100%);
+}
+
+.nuevo:hover, .btn-3d:focus {
+  color: #666666;
+  background-color: #20ff20;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#108010),to(#1a1));
+  background-image: linear-gradient(#20ff20 10%,#1b1 100%);
+}
+
+.nuevo:active {
+  background-color: #108010;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#108010),to(#1a1));
+  background-image: linear-gradient(#108010 10%,#1a1 100%);
+}
+
+
+th {
+  color: white;
+}
+
+td, th {
+  width: 30%;
+}
+
+input, table{
+  
+  text-align: left;
+}
+
+input {
+  width: 80%;
+  font-size: 15px;
+}
+
+table {
+  margin-left: 20%;
+  width: 70%;
+}
+
+.titulo{
+  background-color: #ffaaaa;
+  height: 30px;
+}
+
+.cuerpo {
+  background-color: #ffffaa;
+  height: 30px;
+}
+
+.usuario p{
+  font-weight: bold;
+  font-size: 20px;
+}
