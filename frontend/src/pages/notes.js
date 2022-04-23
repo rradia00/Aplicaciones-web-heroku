@@ -29,7 +29,7 @@ function Notes(args) {
     var axios = require("axios").default;
     axios
     .get(
-      "http://localhost:3016/"+usuario+"/notes")
+     `/api/${user}/notes`)
       .then((response) => {
         if (response.status===200) {
           var i=0;
@@ -50,7 +50,7 @@ function Notes(args) {
     var axios = require("axios").default;
     axios
     .post(
-      "http://localhost:3016/"+usuario+"/notes", {
+      `/api/${user}/notes`,{
         "titulo": titulo,
         "cuerpo": cuerpo
       })
@@ -70,7 +70,7 @@ function Notes(args) {
     var axios = require("axios").default;
     axios
     .delete(
-      "http://localhost:3016/"+usuario+"/notes/"+titulo)
+      `/api/${user}/notes/`$titulo)
       .then((response) => {
         alert(response.data);
         cargarNotas();
@@ -96,7 +96,7 @@ function Notes(args) {
     var axios = require("axios").default;
     axios
     .put(
-      "http://localhost:3016/"+usuario+"/notes/"+titulo, {
+      `/api/${user}/notes`$titulo,{
         "nuevoTitulo": nuevoTitulo,
         "nuevoCuerpo": nuevoCuerpo
       })
