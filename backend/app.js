@@ -9,9 +9,9 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
-app.use('/login', login);
-app.use('/users', users);
-app.use('/:user/notes', notes);
+app.use('/api/login', login);
+app.use('/api/users', users);
+app.use('/api/:user/notes', notes);
 
 app.get('/', function(req, res){
     res.send("Holi qui til");
