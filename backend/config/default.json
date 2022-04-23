@@ -1,0 +1,5 @@
+[
+    {
+        "database":"mongodb+srv://rradia00:1234@cluster0.4nunp.mongodb.net/notesaw?retryWrites=true&w=majority"
+    }
+]
