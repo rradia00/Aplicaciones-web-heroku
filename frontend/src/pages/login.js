@@ -56,7 +56,7 @@ const setPass = listener => {
       var axios = require("axios").default;
       axios
       .post(
-        `/api/${user}/login`
+        `/api/login`
         {
             usuario: vector.email,
             clave: vector.password
